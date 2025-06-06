@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "files": ["vacation-photo-beach.jpg", "project-presentation.pdf"],
+    "totalSize": 3481600,
+    "startTime": "2024-01-15T10:25:00Z",
+    "endTime": "2024-01-15T10:32:00Z"
+  },
+  {
+    "id": "2",
+    "files": ["mountain-sunset.png"],
+    "totalSize": 3840000,
+    "startTime": "2024-01-14T16:40:00Z",
+    "endTime": "2024-01-14T16:48:00Z"
+  },
+  {
+    "id": "3",
+    "files": ["financial-report-2024.xlsx", "city-skyline-night.jpg"],
+    "totalSize": 2560000,
+    "startTime": "2024-01-14T14:15:00Z",
+    "endTime": "2024-01-14T14:25:00Z"
+  },
+  {
+    "id": "4",
+    "files": ["meeting-audio-recording.mp3"],
+    "totalSize": 15360000,
+    "startTime": "2024-01-13T15:40:00Z",
+    "endTime": "2024-01-13T15:52:00Z"
+  },
+  {
+    "id": "5",
+    "files": ["design-mockups.zip", "forest-path-autumn.jpg"],
+    "totalSize": 11059200,
+    "startTime": "2024-01-13T13:15:00Z",
+    "endTime": "2024-01-13T13:28:00Z"
+  },
+  {
+    "id": "6",
+    "files": ["contract-template.docx"],
+    "totalSize": 256000,
+    "startTime": "2024-01-12T16:25:00Z",
+    "endTime": "2024-01-12T16:32:00Z"
+  },
+  {
+    "id": "7",
+    "files": ["ocean-waves-timelapse.mp4", "database-backup.sql"],
+    "totalSize": 30720000,
+    "startTime": "2024-01-12T14:40:00Z",
+    "endTime": "2024-01-12T14:58:00Z"
+  },
+  {
+    "id": "8",
+    "files": ["tropical-sunset-beach.jpg"],
+    "totalSize": 3072000,
+    "startTime": "2024-01-11T17:15:00Z",
+    "endTime": "2024-01-11T17:22:00Z"
+  },
+  {
+    "id": "9",
+    "files": ["team-photo-conference.jpg", "quarterly-results.pdf", "training-video.mp4"],
+    "totalSize": 18432000,
+    "startTime": "2024-01-11T11:30:00Z",
+    "endTime": "2024-01-11T11:48:00Z"
+  },
+  {
+    "id": "10",
+    "files": ["website-backup.zip"],
+    "totalSize": 12288000,
+    "startTime": "2024-01-10T20:15:00Z",
+    "endTime": "2024-01-10T20:28:00Z"
+  },
+  {
+    "id": "11",
+    "files": ["logo-variations.ai", "brand-guidelines.pdf"],
+    "totalSize": 4608000,
+    "startTime": "2024-01-10T14:45:00Z",
+    "endTime": "2024-01-10T14:52:00Z"
+  },
+  {
+    "id": "12",
+    "files": ["customer-feedback.csv", "analytics-report.xlsx"],
+    "totalSize": 768000,
+    "startTime": "2024-01-09T16:20:00Z",
+    "endTime": "2024-01-09T16:25:00Z"
+  }
+]

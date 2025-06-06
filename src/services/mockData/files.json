@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "name": "vacation-photo-beach.jpg",
+    "size": 2457600,
+    "type": "image/jpeg",
+    "uploadedAt": "2024-01-15T10:30:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+    "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+  },
+  {
+    "id": "2",
+    "name": "project-presentation.pdf",
+    "size": 1024000,
+    "type": "application/pdf",
+    "uploadedAt": "2024-01-15T09:15:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file2.pdf",
+    "thumbnail": null
+  },
+  {
+    "id": "3",
+    "name": "mountain-sunset.png",
+    "size": 3840000,
+    "type": "image/png",
+    "uploadedAt": "2024-01-14T16:45:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop"
+  },
+  {
+    "id": "4",
+    "name": "financial-report-2024.xlsx",
+    "size": 512000,
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "uploadedAt": "2024-01-14T14:20:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file4.xlsx",
+    "thumbnail": null
+  },
+  {
+    "id": "5",
+    "name": "city-skyline-night.jpg",
+    "size": 2048000,
+    "type": "image/jpeg",
+    "uploadedAt": "2024-01-14T11:30:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?w=800",
+    "thumbnail": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?w=150&h=150&fit=crop"
+  },
+  {
+    "id": "6",
+    "name": "meeting-audio-recording.mp3",
+    "size": 15360000,
+    "type": "audio/mpeg",
+    "uploadedAt": "2024-01-13T15:45:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file6.mp3",
+    "thumbnail": null
+  },
+  {
+    "id": "7",
+    "name": "design-mockups.zip",
+    "size": 8192000,
+    "type": "application/zip",
+    "uploadedAt": "2024-01-13T13:20:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file7.zip",
+    "thumbnail": null
+  },
+  {
+    "id": "8",
+    "name": "forest-path-autumn.jpg",
+    "size": 2867200,
+    "type": "image/jpeg",
+    "uploadedAt": "2024-01-13T10:15:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=150&h=150&fit=crop"
+  },
+  {
+    "id": "9",
+    "name": "contract-template.docx",
+    "size": 256000,
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uploadedAt": "2024-01-12T16:30:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file9.docx",
+    "thumbnail": null
+  },
+  {
+    "id": "10",
+    "name": "ocean-waves-timelapse.mp4",
+    "size": 25600000,
+    "type": "video/mp4",
+    "uploadedAt": "2024-01-12T14:45:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file10.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=150&h=150&fit=crop"
+  },
+  {
+    "id": "11",
+    "name": "database-backup.sql",
+    "size": 5120000,
+    "type": "application/sql",
+    "uploadedAt": "2024-01-12T09:30:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://example.com/file11.sql",
+    "thumbnail": null
+  },
+  {
+    "id": "12",
+    "name": "tropical-sunset-beach.jpg",
+    "size": 3072000,
+    "type": "image/jpeg",
+    "uploadedAt": "2024-01-11T17:20:00Z",
+    "status": "completed",
+    "progress": 100,
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop"
+  }
+]
