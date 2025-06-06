@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { toast } from 'react-toastify';
 import ApperIcon from './ApperIcon';
+import PreviewModal from './PreviewModal';
 import { fileService, uploadSessionService } from '../services';
 
 const MainFeature = ({ onStatsUpdate }) => {
@@ -464,97 +465,9 @@ const MainFeature = ({ onStatsUpdate }) => {
         </AnimatePresence>
       </div>
 
-      {/* File Detail Modal */}
+{/* Advanced Preview Modal */}
       <AnimatePresence>
-        {selectedFile && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
-            onClick={() => setSelectedFile(null)}
-          >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.9 }}
-              onClick={(e) => e.stopPropagation()}
-              className="bg-white dark:bg-surface-800 rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto glassmorphism"
-            >
-              <div className="flex items-center justify-between mb-6">
-                <h3 className="text-xl font-semibold text-surface-900 dark:text-surface-50">
-                  File Details
-                </h3>
-                <button
-                  onClick={() => setSelectedFile(null)}
-                  className="p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-700"
-                >
-                  <ApperIcon name="X" className="w-5 h-5 text-surface-500" />
-                </button>
-              </div>
-
-              <div className="space-y-6">
-                {/* Preview */}
-                <div className="aspect-video rounded-lg overflow-hidden bg-surface-100 dark:bg-surface-700 flex items-center justify-center">
-                  {selectedFile.thumbnail ? (
-                    <img 
-                      src={selectedFile.thumbnail} 
-                      alt={selectedFile.name}
-                      className="max-w-full max-h-full object-contain"
-                    />
-                  ) : (
-                    <ApperIcon 
-                      name={getFileIcon(selectedFile.type)} 
-                      className="w-24 h-24 text-surface-400"
-                    />
-                  )}
-                </div>
-
-                {/* Metadata */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-sm font-medium text-surface-700 dark:text-surface-300">Name</label>
-                    <p className="text-surface-900 dark:text-surface-50 break-all">{selectedFile.name}</p>
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-surface-700 dark:text-surface-300">Size</label>
-                    <p className="text-surface-900 dark:text-surface-50">{formatFileSize(selectedFile.size)}</p>
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-surface-700 dark:text-surface-300">Type</label>
-                    <p className="text-surface-900 dark:text-surface-50">{selectedFile.type}</p>
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-surface-700 dark:text-surface-300">Uploaded</label>
-                    <p className="text-surface-900 dark:text-surface-50">
-                      {new Date(selectedFile.uploadedAt).toLocaleString()}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Actions */}
-                <div className="flex items-center space-x-3 pt-4 border-t border-surface-200 dark:border-surface-700">
-                  <a
-                    href={selectedFile.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-2 bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors"
-                  >
-                    <ApperIcon name="Download" className="w-4 h-4" />
-                    <span>Download</span>
-                  </a>
-                  <button
-                    onClick={() => deleteFile(selectedFile.id)}
-                    className="flex items-center space-x-2 bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition-colors"
-                  >
-                    <ApperIcon name="Trash2" className="w-4 h-4" />
-                    <span>Delete</span>
-                  </button>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
+        {selectedFile && <PreviewModal file={selectedFile} onClose={() => setSelectedFile(null)} onDelete={deleteFile} />}
       </AnimatePresence>
     </div>
   );
